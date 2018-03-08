@@ -95,33 +95,42 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
         var identifier:String = ""
-        var viewControllerType:UIViewController?
+        
 
+       
                 switch self.selection {
                 case SomeNewEnum.galery.rawValue:
                     identifier = "GalleryVC"
-                    viewControllerType = GalleryViewController
+                    
+                    let vc = storyboard.instantiateViewController(withIdentifier: identifier) as! GalleryViewController
+                    navigationController?.pushViewController(vc,
+                                                             animated: true)
                     break
                 case SomeNewEnum.map.rawValue:
                     identifier = "MapVC"
-                    viewControllerType = MapViewController
+                    let vc = storyboard.instantiateViewController(withIdentifier: identifier) as! MapViewController
+                    navigationController?.pushViewController(vc,
+                                                             animated: true)
                     break
                 case SomeNewEnum.infoLab.rawValue:
                     identifier = "AchievementVC"
-                    viewControllerType = AchievementViewController
+                    let vc = storyboard.instantiateViewController(withIdentifier: identifier) as! AchievementViewController//Se toma como opción default
+                    navigationController?.pushViewController(vc,
+                                                             animated: true)
                     break
                 case SomeNewEnum.appList.rawValue:
                     identifier = "AppListVC"
-                    viewControllerType = AppListViewController
+                    let vc = storyboard.instantiateViewController(withIdentifier: identifier) as! AppListViewController//Se toma como opción default
+                    navigationController?.pushViewController(vc,
+                                                             animated: true)
                     break
                 default:
                     identifier = "AchievementVC"
-                    viewControllerType = AchievementViewController
+                    let vc = storyboard.instantiateViewController(withIdentifier: identifier) as! AchievementViewController//Se toma como opción default
+                    navigationController?.pushViewController(vc,
+                                                             animated: true)
         
                 }
-        let vc = storyboard.instantiateViewController(withIdentifier: identifier) as! GalleryViewController//Se toma como opción default
-        navigationController?.pushViewController(vc,
-                                                 animated: true)
         
     }
     

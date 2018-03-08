@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1506AAB6949388A6E53DC7D1 /* Pods_ArthurFloresAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C29ACC246B67A2E512296D5 /* Pods_ArthurFloresAppUITests.framework */; };
+		34D8D27F77F5EDE8DB86E8B4 /* Pods_ArthurFloresAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726083A65715A921F95FC353 /* Pods_ArthurFloresAppTests.framework */; };
 		458429EA2050E05E0095B559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458429E92050E05E0095B559 /* AppDelegate.swift */; };
 		458429EC2050E05E0095B559 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458429EB2050E05E0095B559 /* ViewController.swift */; };
 		458429EF2050E05E0095B559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458429ED2050E05E0095B559 /* Main.storyboard */; };
@@ -22,6 +24,14 @@
 		45842A29205173610095B559 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45842A28205173610095B559 /* MapViewController.swift */; };
 		45842A2C205174A60095B559 /* AchievementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45842A2B205174A60095B559 /* AchievementViewController.swift */; };
 		45842A31205175550095B559 /* AppListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45842A30205175550095B559 /* AppListViewController.swift */; };
+		45DEAC832051907C00EF871B /* ImageGalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DEAC812051907C00EF871B /* ImageGalleryCollectionViewCell.swift */; };
+		45DEAC842051907C00EF871B /* ImageGalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45DEAC822051907C00EF871B /* ImageGalleryCollectionViewCell.xib */; };
+		45DEAC8A2051A33100EF871B /* AchievementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DEAC882051A33100EF871B /* AchievementTableViewCell.swift */; };
+		45DEAC8B2051A33100EF871B /* AchievementTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45DEAC892051A33100EF871B /* AchievementTableViewCell.xib */; };
+		45DEAC922051B1FE00EF871B /* ManageAchiveObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DEAC912051B1FE00EF871B /* ManageAchiveObject.swift */; };
+		45DEAC9C2051C24A00EF871B /* appListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DEAC9A2051C24A00EF871B /* appListTableViewCell.swift */; };
+		45DEAC9D2051C24A00EF871B /* appListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45DEAC9B2051C24A00EF871B /* appListTableViewCell.xib */; };
+		5A2D84269E56C11492C2FFA5 /* Pods_ArthurFloresApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF124C90E664EC8755E0B938 /* Pods_ArthurFloresApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D8B0B363231801DC057B9D5 /* Pods-ArthurFloresAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArthurFloresAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArthurFloresAppUITests/Pods-ArthurFloresAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		373AFE5B4AC1BCC5F99106B0 /* Pods-ArthurFloresAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArthurFloresAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArthurFloresAppTests/Pods-ArthurFloresAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40468F8008CD3D52FB91D873 /* Pods-ArthurFloresAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArthurFloresAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArthurFloresAppUITests/Pods-ArthurFloresAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		458429E62050E05E0095B559 /* ArthurFloresApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArthurFloresApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		458429E92050E05E0095B559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		458429EB2050E05E0095B559 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +76,19 @@
 		45842A28205173610095B559 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		45842A2B205174A60095B559 /* AchievementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementViewController.swift; sourceTree = "<group>"; };
 		45842A30205175550095B559 /* AppListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListViewController.swift; sourceTree = "<group>"; };
+		45DEAC812051907C00EF871B /* ImageGalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageGalleryCollectionViewCell.swift; path = ArthurFloresApp/GalleryViewController/ImageGalleryCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		45DEAC822051907C00EF871B /* ImageGalleryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ImageGalleryCollectionViewCell.xib; path = ArthurFloresApp/GalleryViewController/ImageGalleryCollectionViewCell.xib; sourceTree = SOURCE_ROOT; };
+		45DEAC882051A33100EF871B /* AchievementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementTableViewCell.swift; sourceTree = "<group>"; };
+		45DEAC892051A33100EF871B /* AchievementTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AchievementTableViewCell.xib; sourceTree = "<group>"; };
+		45DEAC912051B1FE00EF871B /* ManageAchiveObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ManageAchiveObject.swift; path = DataObjects/ManageAchiveObject.swift; sourceTree = "<group>"; };
+		45DEAC9A2051C24A00EF871B /* appListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appListTableViewCell.swift; sourceTree = "<group>"; };
+		45DEAC9B2051C24A00EF871B /* appListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = appListTableViewCell.xib; sourceTree = "<group>"; };
+		60F21434F4DE13C03C7AC9D9 /* Pods-ArthurFloresAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArthurFloresAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArthurFloresAppTests/Pods-ArthurFloresAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		64BA96B3209481087835B711 /* Pods-ArthurFloresApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArthurFloresApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArthurFloresApp/Pods-ArthurFloresApp.debug.xcconfig"; sourceTree = "<group>"; };
+		726083A65715A921F95FC353 /* Pods_ArthurFloresAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArthurFloresAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C29ACC246B67A2E512296D5 /* Pods_ArthurFloresAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArthurFloresAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6AF6F253ECEC31D5FC15B8 /* Pods-ArthurFloresApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArthurFloresApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArthurFloresApp/Pods-ArthurFloresApp.release.xcconfig"; sourceTree = "<group>"; };
+		FF124C90E664EC8755E0B938 /* Pods_ArthurFloresApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArthurFloresApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2D84269E56C11492C2FFA5 /* Pods_ArthurFloresApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D8D27F77F5EDE8DB86E8B4 /* Pods_ArthurFloresAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +112,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1506AAB6949388A6E53DC7D1 /* Pods_ArthurFloresAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		019E60F38728DABC2C3459EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF124C90E664EC8755E0B938 /* Pods_ArthurFloresApp.framework */,
+				726083A65715A921F95FC353 /* Pods_ArthurFloresAppTests.framework */,
+				7C29ACC246B67A2E512296D5 /* Pods_ArthurFloresAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05C06BAF4D25EB68182D0CDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64BA96B3209481087835B711 /* Pods-ArthurFloresApp.debug.xcconfig */,
+				EA6AF6F253ECEC31D5FC15B8 /* Pods-ArthurFloresApp.release.xcconfig */,
+				373AFE5B4AC1BCC5F99106B0 /* Pods-ArthurFloresAppTests.debug.xcconfig */,
+				60F21434F4DE13C03C7AC9D9 /* Pods-ArthurFloresAppTests.release.xcconfig */,
+				40468F8008CD3D52FB91D873 /* Pods-ArthurFloresAppUITests.debug.xcconfig */,
+				0D8B0B363231801DC057B9D5 /* Pods-ArthurFloresAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		458429DD2050E05E0095B559 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +149,8 @@
 				45842A002050E05E0095B559 /* ArthurFloresAppTests */,
 				45842A0B2050E05E0095B559 /* ArthurFloresAppUITests */,
 				458429E72050E05E0095B559 /* Products */,
+				05C06BAF4D25EB68182D0CDA /* Pods */,
+				019E60F38728DABC2C3459EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +167,7 @@
 		458429E82050E05E0095B559 /* ArthurFloresApp */ = {
 			isa = PBXGroup;
 			children = (
+				45DEAC902051AB5900EF871B /* DataObjects */,
 				45842A2F205175380095B559 /* AppListViewController */,
 				45842A2A205174070095B559 /* AchievementViewController */,
 				45842A27205173340095B559 /* MapViewController */,
@@ -124,7 +179,6 @@
 				45842A1A2050E66D0095B559 /* Assets.xcassets */,
 				458429F52050E05E0095B559 /* LaunchScreen.storyboard */,
 				458429F82050E05E0095B559 /* Info.plist */,
-				458429F02050E05E0095B559 /* ArthurFloresApp.xcdatamodeld */,
 			);
 			path = ArthurFloresApp;
 			sourceTree = "<group>";
@@ -169,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				45842A2520512B3D0095B559 /* GalleryViewController.swift */,
+				45DEAC862051917300EF871B /* Cell */,
 			);
 			path = GalleryViewController;
 			sourceTree = "<group>";
@@ -184,6 +239,7 @@
 		45842A2A205174070095B559 /* AchievementViewController */ = {
 			isa = PBXGroup;
 			children = (
+				45DEAC872051A30C00EF871B /* AVCell */,
 				45842A2B205174A60095B559 /* AchievementViewController.swift */,
 			);
 			path = AchievementViewController;
@@ -192,9 +248,46 @@
 		45842A2F205175380095B559 /* AppListViewController */ = {
 			isa = PBXGroup;
 			children = (
+				45DEAC992051C22E00EF871B /* appListCell */,
 				45842A30205175550095B559 /* AppListViewController.swift */,
 			);
 			path = AppListViewController;
+			sourceTree = "<group>";
+		};
+		45DEAC862051917300EF871B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				45DEAC812051907C00EF871B /* ImageGalleryCollectionViewCell.swift */,
+				45DEAC822051907C00EF871B /* ImageGalleryCollectionViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		45DEAC872051A30C00EF871B /* AVCell */ = {
+			isa = PBXGroup;
+			children = (
+				45DEAC882051A33100EF871B /* AchievementTableViewCell.swift */,
+				45DEAC892051A33100EF871B /* AchievementTableViewCell.xib */,
+			);
+			path = AVCell;
+			sourceTree = "<group>";
+		};
+		45DEAC902051AB5900EF871B /* DataObjects */ = {
+			isa = PBXGroup;
+			children = (
+				458429F02050E05E0095B559 /* ArthurFloresApp.xcdatamodeld */,
+				45DEAC912051B1FE00EF871B /* ManageAchiveObject.swift */,
+			);
+			name = DataObjects;
+			sourceTree = "<group>";
+		};
+		45DEAC992051C22E00EF871B /* appListCell */ = {
+			isa = PBXGroup;
+			children = (
+				45DEAC9A2051C24A00EF871B /* appListTableViewCell.swift */,
+				45DEAC9B2051C24A00EF871B /* appListTableViewCell.xib */,
+			);
+			path = appListCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +297,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45842A112050E05E0095B559 /* Build configuration list for PBXNativeTarget "ArthurFloresApp" */;
 			buildPhases = (
+				61984AAD6545F9A49991F592 /* [CP] Check Pods Manifest.lock */,
 				458429E22050E05E0095B559 /* Sources */,
 				458429E32050E05E0095B559 /* Frameworks */,
 				458429E42050E05E0095B559 /* Resources */,
+				7283B733E8B392004D4178B7 /* [CP] Embed Pods Frameworks */,
+				EB42B1493196D068D87973A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,9 +317,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45842A142050E05E0095B559 /* Build configuration list for PBXNativeTarget "ArthurFloresAppTests" */;
 			buildPhases = (
+				F00B43CF45A1BEF24891BDE7 /* [CP] Check Pods Manifest.lock */,
 				458429F92050E05E0095B559 /* Sources */,
 				458429FA2050E05E0095B559 /* Frameworks */,
 				458429FB2050E05E0095B559 /* Resources */,
+				1181314AFC9F8B2E7A39139A /* [CP] Embed Pods Frameworks */,
+				CDE6075CAD931C5810941DC6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,9 +338,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45842A172050E05E0095B559 /* Build configuration list for PBXNativeTarget "ArthurFloresAppUITests" */;
 			buildPhases = (
+				971027B300219E88D1A5BD67 /* [CP] Check Pods Manifest.lock */,
 				45842A042050E05E0095B559 /* Sources */,
 				45842A052050E05E0095B559 /* Frameworks */,
 				45842A062050E05E0095B559 /* Resources */,
+				3A16205BA89010026F2CB989 /* [CP] Embed Pods Frameworks */,
+				D0722A5DC35F87956E0B6896 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,7 +407,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				458429F72050E05E0095B559 /* LaunchScreen.storyboard in Resources */,
+				45DEAC9D2051C24A00EF871B /* appListTableViewCell.xib in Resources */,
+				45DEAC842051907C00EF871B /* ImageGalleryCollectionViewCell.xib in Resources */,
 				45842A1B2050E66E0095B559 /* Assets.xcassets in Resources */,
+				45DEAC8B2051A33100EF871B /* AchievementTableViewCell.xib in Resources */,
 				45842A23205105D00095B559 /* ProfileInformationCellTableViewCell.xib in Resources */,
 				458429EF2050E05E0095B559 /* Main.storyboard in Resources */,
 			);
@@ -327,6 +432,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1181314AFC9F8B2E7A39139A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArthurFloresAppTests/Pods-ArthurFloresAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A16205BA89010026F2CB989 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArthurFloresAppUITests/Pods-ArthurFloresAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61984AAD6545F9A49991F592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArthurFloresApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7283B733E8B392004D4178B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArthurFloresApp/Pods-ArthurFloresApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971027B300219E88D1A5BD67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArthurFloresAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDE6075CAD931C5810941DC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArthurFloresAppTests/Pods-ArthurFloresAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0722A5DC35F87956E0B6896 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArthurFloresAppUITests/Pods-ArthurFloresAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB42B1493196D068D87973A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArthurFloresApp/Pods-ArthurFloresApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArthurFloresApp/Pods-ArthurFloresApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F00B43CF45A1BEF24891BDE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArthurFloresAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		458429E22050E05E0095B559 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -337,10 +592,14 @@
 				45842A2C205174A60095B559 /* AchievementViewController.swift in Sources */,
 				458429EA2050E05E0095B559 /* AppDelegate.swift in Sources */,
 				45842A2620512B3D0095B559 /* GalleryViewController.swift in Sources */,
+				45DEAC9C2051C24A00EF871B /* appListTableViewCell.swift in Sources */,
 				45842A1D205102CC0095B559 /* ProfileViewController.swift in Sources */,
 				458429F22050E05E0095B559 /* ArthurFloresApp.xcdatamodeld in Sources */,
+				45DEAC832051907C00EF871B /* ImageGalleryCollectionViewCell.swift in Sources */,
 				45842A29205173610095B559 /* MapViewController.swift in Sources */,
+				45DEAC8A2051A33100EF871B /* AchievementTableViewCell.swift in Sources */,
 				45842A31205175550095B559 /* AppListViewController.swift in Sources */,
+				45DEAC922051B1FE00EF871B /* ManageAchiveObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,12 +763,13 @@
 		};
 		45842A122050E05E0095B559 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64BA96B3209481087835B711 /* Pods-ArthurFloresApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D7BH9QNKLH;
+				DEVELOPMENT_TEAM = 6383T335MV;
 				INFOPLIST_FILE = ArthurFloresApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.arthurFlores.ArthurFloresApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,12 +780,13 @@
 		};
 		45842A132050E05E0095B559 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6AF6F253ECEC31D5FC15B8 /* Pods-ArthurFloresApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D7BH9QNKLH;
+				DEVELOPMENT_TEAM = 6383T335MV;
 				INFOPLIST_FILE = ArthurFloresApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.arthurFlores.ArthurFloresApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -536,11 +797,12 @@
 		};
 		45842A152050E05E0095B559 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373AFE5B4AC1BCC5F99106B0 /* Pods-ArthurFloresAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D7BH9QNKLH;
+				DEVELOPMENT_TEAM = 6383T335MV;
 				INFOPLIST_FILE = ArthurFloresAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.arthurFlores.ArthurFloresAppTests;
@@ -553,11 +815,12 @@
 		};
 		45842A162050E05E0095B559 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F21434F4DE13C03C7AC9D9 /* Pods-ArthurFloresAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D7BH9QNKLH;
+				DEVELOPMENT_TEAM = 6383T335MV;
 				INFOPLIST_FILE = ArthurFloresAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.arthurFlores.ArthurFloresAppTests;
@@ -570,10 +833,11 @@
 		};
 		45842A182050E05E0095B559 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40468F8008CD3D52FB91D873 /* Pods-ArthurFloresAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D7BH9QNKLH;
+				DEVELOPMENT_TEAM = 6383T335MV;
 				INFOPLIST_FILE = ArthurFloresAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.arthurFlores.ArthurFloresAppUITests;
@@ -586,10 +850,11 @@
 		};
 		45842A192050E05E0095B559 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8B0B363231801DC057B9D5 /* Pods-ArthurFloresAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D7BH9QNKLH;
+				DEVELOPMENT_TEAM = 6383T335MV;
 				INFOPLIST_FILE = ArthurFloresAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.arthurFlores.ArthurFloresAppUITests;

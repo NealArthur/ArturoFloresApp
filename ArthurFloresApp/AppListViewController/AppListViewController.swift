@@ -8,28 +8,34 @@
 
 import UIKit
 
-class AppListViewController: UIViewController {
+class AppListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+  
 
+    @IBOutlet var appListTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        appListTableView.delegate = self
+        appListTableView.dataSource = self
+        appListTableView.register(UINib(nibName: "appListTableViewCell", bundle: nil), forCellReuseIdentifier: "AppCell")
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+  
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 300
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = appListTableView.dequeueReusableCell(withIdentifier: "AppCell", for: indexPath) as! appListTableViewCell
+    
+        cell.nameApp.text = "Xtender"
+        cell.descriptionApp.text  = "mi primera aplicación"
+        cell.retosLabel.text = "usar beacons"
+        cell.linkLabel.text = "http://xtender.com.mx"
+        return cell
     }
-    */
-
+    
 }
