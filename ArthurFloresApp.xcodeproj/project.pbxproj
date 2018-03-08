@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		458429EA2050E05E0095B559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458429E92050E05E0095B559 /* AppDelegate.swift */; };
+		458429EC2050E05E0095B559 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458429EB2050E05E0095B559 /* ViewController.swift */; };
+		458429EF2050E05E0095B559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458429ED2050E05E0095B559 /* Main.storyboard */; };
+		458429F22050E05E0095B559 /* ArthurFloresApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 458429F02050E05E0095B559 /* ArthurFloresApp.xcdatamodeld */; };
+		458429F72050E05E0095B559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458429F52050E05E0095B559 /* LaunchScreen.storyboard */; };
+		45842A022050E05E0095B559 /* ArthurFloresAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45842A012050E05E0095B559 /* ArthurFloresAppTests.swift */; };
+		45842A0D2050E05E0095B559 /* ArthurFloresAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45842A0C2050E05E0095B559 /* ArthurFloresAppUITests.swift */; };
+		45842A1B2050E66E0095B559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45842A1A2050E66D0095B559 /* Assets.xcassets */; };
+		45842A1D205102CC0095B559 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45842A1C205102CC0095B559 /* ProfileViewController.swift */; };
+		45842A22205105D00095B559 /* ProfileInformationCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45842A20205105D00095B559 /* ProfileInformationCellTableViewCell.swift */; };
+		45842A23205105D00095B559 /* ProfileInformationCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45842A21205105D00095B559 /* ProfileInformationCellTableViewCell.xib */; };
+		45842A2620512B3D0095B559 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45842A2520512B3D0095B559 /* GalleryViewController.swift */; };
+		45842A29205173610095B559 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45842A28205173610095B559 /* MapViewController.swift */; };
+		45842A2C205174A60095B559 /* AchievementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45842A2B205174A60095B559 /* AchievementViewController.swift */; };
+		45842A31205175550095B559 /* AppListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45842A30205175550095B559 /* AppListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		458429FE2050E05E0095B559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 458429DE2050E05E0095B559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 458429E52050E05E0095B559;
+			remoteInfo = ArthurFloresApp;
+		};
+		45842A092050E05E0095B559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 458429DE2050E05E0095B559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 458429E52050E05E0095B559;
+			remoteInfo = ArthurFloresApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		458429E62050E05E0095B559 /* ArthurFloresApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArthurFloresApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		458429E92050E05E0095B559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		458429EB2050E05E0095B559 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		458429EE2050E05E0095B559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		458429F12050E05E0095B559 /* ArthurFloresApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArthurFloresApp.xcdatamodel; sourceTree = "<group>"; };
+		458429F62050E05E0095B559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		458429F82050E05E0095B559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		458429FD2050E05E0095B559 /* ArthurFloresAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArthurFloresAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45842A012050E05E0095B559 /* ArthurFloresAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArthurFloresAppTests.swift; sourceTree = "<group>"; };
+		45842A032050E05E0095B559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45842A082050E05E0095B559 /* ArthurFloresAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArthurFloresAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45842A0C2050E05E0095B559 /* ArthurFloresAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArthurFloresAppUITests.swift; sourceTree = "<group>"; };
+		45842A0E2050E05E0095B559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45842A1A2050E66D0095B559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45842A1C205102CC0095B559 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		45842A20205105D00095B559 /* ProfileInformationCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInformationCellTableViewCell.swift; sourceTree = "<group>"; };
+		45842A21205105D00095B559 /* ProfileInformationCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileInformationCellTableViewCell.xib; sourceTree = "<group>"; };
+		45842A2520512B3D0095B559 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GalleryViewController.swift; path = ArthurFloresApp/ViewControllers/GalleryViewController.swift; sourceTree = SOURCE_ROOT; };
+		45842A28205173610095B559 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		45842A2B205174A60095B559 /* AchievementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementViewController.swift; sourceTree = "<group>"; };
+		45842A30205175550095B559 /* AppListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		458429E32050E05E0095B559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458429FA2050E05E0095B559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45842A052050E05E0095B559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		458429DD2050E05E0095B559 = {
+			isa = PBXGroup;
+			children = (
+				458429E82050E05E0095B559 /* ArthurFloresApp */,
+				45842A002050E05E0095B559 /* ArthurFloresAppTests */,
+				45842A0B2050E05E0095B559 /* ArthurFloresAppUITests */,
+				458429E72050E05E0095B559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		458429E72050E05E0095B559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				458429E62050E05E0095B559 /* ArthurFloresApp.app */,
+				458429FD2050E05E0095B559 /* ArthurFloresAppTests.xctest */,
+				45842A082050E05E0095B559 /* ArthurFloresAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		458429E82050E05E0095B559 /* ArthurFloresApp */ = {
+			isa = PBXGroup;
+			children = (
+				45842A2F205175380095B559 /* AppListViewController */,
+				45842A2A205174070095B559 /* AchievementViewController */,
+				45842A27205173340095B559 /* MapViewController */,
+				45842A2420512B000095B559 /* GalleryViewController */,
+				45842A1E2051055A0095B559 /* ProfileViewController */,
+				458429E92050E05E0095B559 /* AppDelegate.swift */,
+				458429EB2050E05E0095B559 /* ViewController.swift */,
+				458429ED2050E05E0095B559 /* Main.storyboard */,
+				45842A1A2050E66D0095B559 /* Assets.xcassets */,
+				458429F52050E05E0095B559 /* LaunchScreen.storyboard */,
+				458429F82050E05E0095B559 /* Info.plist */,
+				458429F02050E05E0095B559 /* ArthurFloresApp.xcdatamodeld */,
+			);
+			path = ArthurFloresApp;
+			sourceTree = "<group>";
+		};
+		45842A002050E05E0095B559 /* ArthurFloresAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				45842A012050E05E0095B559 /* ArthurFloresAppTests.swift */,
+				45842A032050E05E0095B559 /* Info.plist */,
+			);
+			path = ArthurFloresAppTests;
+			sourceTree = "<group>";
+		};
+		45842A0B2050E05E0095B559 /* ArthurFloresAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45842A0C2050E05E0095B559 /* ArthurFloresAppUITests.swift */,
+				45842A0E2050E05E0095B559 /* Info.plist */,
+			);
+			path = ArthurFloresAppUITests;
+			sourceTree = "<group>";
+		};
+		45842A1E2051055A0095B559 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45842A1F205105AC0095B559 /* profileInformationCell */,
+				45842A1C205102CC0095B559 /* ProfileViewController.swift */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		45842A1F205105AC0095B559 /* profileInformationCell */ = {
+			isa = PBXGroup;
+			children = (
+				45842A20205105D00095B559 /* ProfileInformationCellTableViewCell.swift */,
+				45842A21205105D00095B559 /* ProfileInformationCellTableViewCell.xib */,
+			);
+			path = profileInformationCell;
+			sourceTree = "<group>";
+		};
+		45842A2420512B000095B559 /* GalleryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45842A2520512B3D0095B559 /* GalleryViewController.swift */,
+			);
+			path = GalleryViewController;
+			sourceTree = "<group>";
+		};
+		45842A27205173340095B559 /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45842A28205173610095B559 /* MapViewController.swift */,
+			);
+			path = MapViewController;
+			sourceTree = "<group>";
+		};
+		45842A2A205174070095B559 /* AchievementViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45842A2B205174A60095B559 /* AchievementViewController.swift */,
+			);
+			path = AchievementViewController;
+			sourceTree = "<group>";
+		};
+		45842A2F205175380095B559 /* AppListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45842A30205175550095B559 /* AppListViewController.swift */,
+			);
+			path = AppListViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		458429E52050E05E0095B559 /* ArthurFloresApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45842A112050E05E0095B559 /* Build configuration list for PBXNativeTarget "ArthurFloresApp" */;
+			buildPhases = (
+				458429E22050E05E0095B559 /* Sources */,
+				458429E32050E05E0095B559 /* Frameworks */,
+				458429E42050E05E0095B559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArthurFloresApp;
+			productName = ArthurFloresApp;
+			productReference = 458429E62050E05E0095B559 /* ArthurFloresApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		458429FC2050E05E0095B559 /* ArthurFloresAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45842A142050E05E0095B559 /* Build configuration list for PBXNativeTarget "ArthurFloresAppTests" */;
+			buildPhases = (
+				458429F92050E05E0095B559 /* Sources */,
+				458429FA2050E05E0095B559 /* Frameworks */,
+				458429FB2050E05E0095B559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				458429FF2050E05E0095B559 /* PBXTargetDependency */,
+			);
+			name = ArthurFloresAppTests;
+			productName = ArthurFloresAppTests;
+			productReference = 458429FD2050E05E0095B559 /* ArthurFloresAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45842A072050E05E0095B559 /* ArthurFloresAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45842A172050E05E0095B559 /* Build configuration list for PBXNativeTarget "ArthurFloresAppUITests" */;
+			buildPhases = (
+				45842A042050E05E0095B559 /* Sources */,
+				45842A052050E05E0095B559 /* Frameworks */,
+				45842A062050E05E0095B559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45842A0A2050E05E0095B559 /* PBXTargetDependency */,
+			);
+			name = ArthurFloresAppUITests;
+			productName = ArthurFloresAppUITests;
+			productReference = 45842A082050E05E0095B559 /* ArthurFloresAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		458429DE2050E05E0095B559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ArthurFlores;
+				TargetAttributes = {
+					458429E52050E05E0095B559 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					458429FC2050E05E0095B559 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 458429E52050E05E0095B559;
+					};
+					45842A072050E05E0095B559 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 458429E52050E05E0095B559;
+					};
+				};
+			};
+			buildConfigurationList = 458429E12050E05E0095B559 /* Build configuration list for PBXProject "ArthurFloresApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 458429DD2050E05E0095B559;
+			productRefGroup = 458429E72050E05E0095B559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				458429E52050E05E0095B559 /* ArthurFloresApp */,
+				458429FC2050E05E0095B559 /* ArthurFloresAppTests */,
+				45842A072050E05E0095B559 /* ArthurFloresAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		458429E42050E05E0095B559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458429F72050E05E0095B559 /* LaunchScreen.storyboard in Resources */,
+				45842A1B2050E66E0095B559 /* Assets.xcassets in Resources */,
+				45842A23205105D00095B559 /* ProfileInformationCellTableViewCell.xib in Resources */,
+				458429EF2050E05E0095B559 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458429FB2050E05E0095B559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45842A062050E05E0095B559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		458429E22050E05E0095B559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458429EC2050E05E0095B559 /* ViewController.swift in Sources */,
+				45842A22205105D00095B559 /* ProfileInformationCellTableViewCell.swift in Sources */,
+				45842A2C205174A60095B559 /* AchievementViewController.swift in Sources */,
+				458429EA2050E05E0095B559 /* AppDelegate.swift in Sources */,
+				45842A2620512B3D0095B559 /* GalleryViewController.swift in Sources */,
+				45842A1D205102CC0095B559 /* ProfileViewController.swift in Sources */,
+				458429F22050E05E0095B559 /* ArthurFloresApp.xcdatamodeld in Sources */,
+				45842A29205173610095B559 /* MapViewController.swift in Sources */,
+				45842A31205175550095B559 /* AppListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458429F92050E05E0095B559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45842A022050E05E0095B559 /* ArthurFloresAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45842A042050E05E0095B559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45842A0D2050E05E0095B559 /* ArthurFloresAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		458429FF2050E05E0095B559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 458429E52050E05E0095B559 /* ArthurFloresApp */;
+			targetProxy = 458429FE2050E05E0095B559 /* PBXContainerItemProxy */;
+		};
+		45842A0A2050E05E0095B559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 458429E52050E05E0095B559 /* ArthurFloresApp */;
+			targetProxy = 45842A092050E05E0095B559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		458429ED2050E05E0095B559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				458429EE2050E05E0095B559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		458429F52050E05E0095B559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				458429F62050E05E0095B559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45842A0F2050E05E0095B559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45842A102050E05E0095B559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45842A122050E05E0095B559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7BH9QNKLH;
+				INFOPLIST_FILE = ArthurFloresApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.arthurFlores.ArthurFloresApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		45842A132050E05E0095B559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7BH9QNKLH;
+				INFOPLIST_FILE = ArthurFloresApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.arthurFlores.ArthurFloresApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		45842A152050E05E0095B559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7BH9QNKLH;
+				INFOPLIST_FILE = ArthurFloresAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.arthurFlores.ArthurFloresAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArthurFloresApp.app/ArthurFloresApp";
+			};
+			name = Debug;
+		};
+		45842A162050E05E0095B559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7BH9QNKLH;
+				INFOPLIST_FILE = ArthurFloresAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.arthurFlores.ArthurFloresAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArthurFloresApp.app/ArthurFloresApp";
+			};
+			name = Release;
+		};
+		45842A182050E05E0095B559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7BH9QNKLH;
+				INFOPLIST_FILE = ArthurFloresAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.arthurFlores.ArthurFloresAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArthurFloresApp;
+			};
+			name = Debug;
+		};
+		45842A192050E05E0095B559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7BH9QNKLH;
+				INFOPLIST_FILE = ArthurFloresAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.arthurFlores.ArthurFloresAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArthurFloresApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		458429E12050E05E0095B559 /* Build configuration list for PBXProject "ArthurFloresApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45842A0F2050E05E0095B559 /* Debug */,
+				45842A102050E05E0095B559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45842A112050E05E0095B559 /* Build configuration list for PBXNativeTarget "ArthurFloresApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45842A122050E05E0095B559 /* Debug */,
+				45842A132050E05E0095B559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45842A142050E05E0095B559 /* Build configuration list for PBXNativeTarget "ArthurFloresAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45842A152050E05E0095B559 /* Debug */,
+				45842A162050E05E0095B559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45842A172050E05E0095B559 /* Build configuration list for PBXNativeTarget "ArthurFloresAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45842A182050E05E0095B559 /* Debug */,
+				45842A192050E05E0095B559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		458429F02050E05E0095B559 /* ArthurFloresApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				458429F12050E05E0095B559 /* ArthurFloresApp.xcdatamodel */,
+			);
+			currentVersion = 458429F12050E05E0095B559 /* ArthurFloresApp.xcdatamodel */;
+			path = ArthurFloresApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 458429DE2050E05E0095B559 /* Project object */;
+}
