@@ -11,9 +11,9 @@ import UIKit
 class GalleryViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     @IBOutlet var imagesCollectionView: UICollectionView!
-    
+    let descriptions = ["Mi primer aplicación en ios compilada", "Mi primer iphone se rompió.","En una sesión de grabación en mi primer trabajo", "Mi equipo de desarrollo para el Global Startup Lab impartido por el MIT","Yo en visita del iLab", "En compañía de Diego Méndez: Instructor del GSL por parte del MIT","Mi actual equipo de trabajo", "Preparando un review para mi blog personal: Bombilla Bluetooth para Homekit","Yo disfrutando el tiempo libre que da aveces la vida."]
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+        return descriptions.count
     }
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
@@ -23,7 +23,9 @@ class GalleryViewController: UIViewController, UICollectionViewDelegate, UIColle
         let cell : ImageGalleryCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "imageViewCell", for: indexPath) as! ImageGalleryCollectionViewCell
         
         cell.sizeToFit()
-        cell.descriptionLabel.text = "una manaña por la mañana"
+        let imageName = "img\(indexPath.row+1)"
+        cell.pictureImageView.image =  UIImage(named: imageName)
+        cell.descriptionLabel.text = descriptions[indexPath.row]
         
         return cell
     }
@@ -31,6 +33,7 @@ class GalleryViewController: UIViewController, UICollectionViewDelegate, UIColle
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.imagesCollectionView.delegate = self
         self.imagesCollectionView.dataSource = self
         

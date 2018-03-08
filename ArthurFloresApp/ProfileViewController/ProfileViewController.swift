@@ -50,7 +50,7 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = informationTableView.dequeueReusableCell(withIdentifier: "infoCell", for: indexPath) as! ProfileInformationCellTableViewCell
         cell.titleTxtLabel.text = "Nombre"
-        cell.infoLabel.text = "alguna información lorem ipsum mas lorem mas impsum mas de lo que sea"
+        cell.infoLabel.text = "alguna información lorem ipsum mas lorem mas impsum"
         
         
         return cell
