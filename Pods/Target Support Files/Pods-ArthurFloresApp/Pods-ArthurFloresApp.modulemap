@@ -1,0 +1,6 @@
+framework module Pods_ArthurFloresApp {
+  umbrella header "Pods-ArthurFloresApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

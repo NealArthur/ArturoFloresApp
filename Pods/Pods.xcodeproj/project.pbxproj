@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19A194022421A39D62EF8A16036961CA /* Pods-ArthurFloresAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D96C6FE6DB3AB72DC7C6983FB716B3B8 /* Pods-ArthurFloresAppUITests-dummy.m */; };
+		5F5D577542358649ABF54EF445153537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		73D926EEA20BBAA8ED8361183A6ACBA8 /* Pods-ArthurFloresAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83CE678CF932D7CE9D598337642ED8FB /* Pods-ArthurFloresAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96BF6A143C7E320B5084021DBF16D827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B2DC7910A14CABD0C359A4EBA169677D /* Pods-ArthurFloresApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6CBF2E7508B29E436D6DC18CBDA448 /* Pods-ArthurFloresApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C388BEBBBAFE87EED0AF94F5610E643B /* Pods-ArthurFloresAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67CBB2902CD10CF58B4A4766B4ADC777 /* Pods-ArthurFloresAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C476140C38E4D565E88329C56A0E801B /* Pods-ArthurFloresApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97913FDD110EFABA068CF34E933C6C4D /* Pods-ArthurFloresApp-dummy.m */; };
+		ED01A83A52F0F5B079606A54FB45B284 /* Pods-ArthurFloresAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7861EB6A8E674B239503981B46D2E833 /* Pods-ArthurFloresAppTests-dummy.m */; };
+		FE39DA93F66BD7C9A5D8D8CC105C92EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02B7703695677D9E493660EEE9F7CDEE /* Pods-ArthurFloresAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArthurFloresAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		155E0231308603605343A90F3C5B93E2 /* Pods-ArthurFloresAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArthurFloresAppTests-resources.sh"; sourceTree = "<group>"; };
+		172A012401C6D328C7388CF4C7EEE54C /* Pods-ArthurFloresAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArthurFloresAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		197AF0C16A73AC37D644DD9895010930 /* Pods-ArthurFloresAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArthurFloresAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A893A7FCDEB10CBAB0F7AD1E055C816 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B6D31AE847C42C8C2D66216EC8A7619 /* Pods-ArthurFloresAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArthurFloresAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27BC9C8007FB2C18A3E356B260D73BCE /* Pods_ArthurFloresApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArthurFloresApp.framework; path = "Pods-ArthurFloresApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E8EA80A544CF00810A2B0A2BA160CE /* Pods-ArthurFloresAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArthurFloresAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30895C0A5A4B056920D40B057EC10D31 /* Pods-ArthurFloresAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArthurFloresAppUITests-resources.sh"; sourceTree = "<group>"; };
+		323919BF0E0AE5E164DB4A1511685BBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36542C97B508DA27E4D7DD415508D181 /* Pods-ArthurFloresApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArthurFloresApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36DB83CB4279B90D59054691B89501D1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67CBB2902CD10CF58B4A4766B4ADC777 /* Pods-ArthurFloresAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArthurFloresAppTests-umbrella.h"; sourceTree = "<group>"; };
+		6F7A05C25C5B6768E780706F60A4F584 /* Pods-ArthurFloresAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArthurFloresAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7861EB6A8E674B239503981B46D2E833 /* Pods-ArthurFloresAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArthurFloresAppTests-dummy.m"; sourceTree = "<group>"; };
+		7D9919730F120F3F18BC35D3AEEB8FF4 /* Pods-ArthurFloresApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArthurFloresApp-resources.sh"; sourceTree = "<group>"; };
+		83CE678CF932D7CE9D598337642ED8FB /* Pods-ArthurFloresAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArthurFloresAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		8A31FCF4BCB8A0CBCFE7A97EC009BDA5 /* Pods-ArthurFloresApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArthurFloresApp-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94976E6CE167C659AD59249AF937CBCB /* Pods-ArthurFloresAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArthurFloresAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		97913FDD110EFABA068CF34E933C6C4D /* Pods-ArthurFloresApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArthurFloresApp-dummy.m"; sourceTree = "<group>"; };
+		9E7EA5D23D64AC3F7ED8B8F0D96252E7 /* Pods-ArthurFloresApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArthurFloresApp.release.xcconfig"; sourceTree = "<group>"; };
+		AEA1FDE85D6E693F792C0E9E92BD7C2A /* Pods-ArthurFloresApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArthurFloresApp.modulemap"; sourceTree = "<group>"; };
+		B2C08BD4DCDB27B80D13D4AAF61DCEEF /* Pods-ArthurFloresAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArthurFloresAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5093F6D1D3F60522EF929F49F9F6E37 /* Pods-ArthurFloresApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArthurFloresApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC6CBF2E7508B29E436D6DC18CBDA448 /* Pods-ArthurFloresApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArthurFloresApp-umbrella.h"; sourceTree = "<group>"; };
+		BCFBE8AFD3438608B911C40E8F6C8051 /* Pods_ArthurFloresAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArthurFloresAppUITests.framework; path = "Pods-ArthurFloresAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE887D0024608594C3B440F4DF167E08 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		CB6BB591C7D7A9BB72CB281BD4FACFA9 /* Pods-ArthurFloresAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArthurFloresAppTests.modulemap"; sourceTree = "<group>"; };
+		D70CD4148C53D3102BEE0E1E0B3D969F /* Pods-ArthurFloresAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArthurFloresAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D96C6FE6DB3AB72DC7C6983FB716B3B8 /* Pods-ArthurFloresAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArthurFloresAppUITests-dummy.m"; sourceTree = "<group>"; };
+		DADE341A363EC39495E035B4B9B75B9B /* Pods-ArthurFloresAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArthurFloresAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		DF978C29ED3AFA285091F6C6ADAA1366 /* Pods-ArthurFloresApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArthurFloresApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E004374149D836C1256FFFCB38FECB72 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		EA404BE4434822A1950955AD42ED8ED6 /* Pods-ArthurFloresAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArthurFloresAppUITests.modulemap"; sourceTree = "<group>"; };
+		EDEE9A4AB50881B6004AEB6DA432760B /* Pods_ArthurFloresAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArthurFloresAppTests.framework; path = "Pods-ArthurFloresAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F130AB44E51DC16328B09249594307E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95DB7ACF73CF03040C57A3D42223A51 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4F6216D8EF12A5A499648765A035711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE39DA93F66BD7C9A5D8D8CC105C92EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A779527E4B5EDF39982232395E7B8865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5D577542358649ABF54EF445153537 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6352CDA4D9864800A06DA4A9ECE561D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BF6A143C7E320B5084021DBF16D827 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FCF4FB4752927D4BCC6D920928AC45C /* Pods-ArthurFloresApp */ = {
+			isa = PBXGroup;
+			children = (
+				F130AB44E51DC16328B09249594307E6 /* Info.plist */,
+				AEA1FDE85D6E693F792C0E9E92BD7C2A /* Pods-ArthurFloresApp.modulemap */,
+				36542C97B508DA27E4D7DD415508D181 /* Pods-ArthurFloresApp-acknowledgements.markdown */,
+				B5093F6D1D3F60522EF929F49F9F6E37 /* Pods-ArthurFloresApp-acknowledgements.plist */,
+				97913FDD110EFABA068CF34E933C6C4D /* Pods-ArthurFloresApp-dummy.m */,
+				8A31FCF4BCB8A0CBCFE7A97EC009BDA5 /* Pods-ArthurFloresApp-frameworks.sh */,
+				7D9919730F120F3F18BC35D3AEEB8FF4 /* Pods-ArthurFloresApp-resources.sh */,
+				BC6CBF2E7508B29E436D6DC18CBDA448 /* Pods-ArthurFloresApp-umbrella.h */,
+				DF978C29ED3AFA285091F6C6ADAA1366 /* Pods-ArthurFloresApp.debug.xcconfig */,
+				9E7EA5D23D64AC3F7ED8B8F0D96252E7 /* Pods-ArthurFloresApp.release.xcconfig */,
+			);
+			name = "Pods-ArthurFloresApp";
+			path = "Target Support Files/Pods-ArthurFloresApp";
+			sourceTree = "<group>";
+		};
+		1418B056D31B27EE2CEBA552B5ADFE56 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				501562BF592517FC6A65661FF1B35C78 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				1418B056D31B27EE2CEBA552B5ADFE56 /* Base */,
+				6BC99F081C91F80679CFA5DDC6213D57 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		3598CBA77D53C0AA5CCFD958CD2E8857 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE887D0024608594C3B440F4DF167E08 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3BA71102040E82A83693B05A97AD2CF9 /* Pods-ArthurFloresAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A893A7FCDEB10CBAB0F7AD1E055C816 /* Info.plist */,
+				EA404BE4434822A1950955AD42ED8ED6 /* Pods-ArthurFloresAppUITests.modulemap */,
+				6F7A05C25C5B6768E780706F60A4F584 /* Pods-ArthurFloresAppUITests-acknowledgements.markdown */,
+				D70CD4148C53D3102BEE0E1E0B3D969F /* Pods-ArthurFloresAppUITests-acknowledgements.plist */,
+				D96C6FE6DB3AB72DC7C6983FB716B3B8 /* Pods-ArthurFloresAppUITests-dummy.m */,
+				94976E6CE167C659AD59249AF937CBCB /* Pods-ArthurFloresAppUITests-frameworks.sh */,
+				30895C0A5A4B056920D40B057EC10D31 /* Pods-ArthurFloresAppUITests-resources.sh */,
+				83CE678CF932D7CE9D598337642ED8FB /* Pods-ArthurFloresAppUITests-umbrella.h */,
+				B2C08BD4DCDB27B80D13D4AAF61DCEEF /* Pods-ArthurFloresAppUITests.debug.xcconfig */,
+				197AF0C16A73AC37D644DD9895010930 /* Pods-ArthurFloresAppUITests.release.xcconfig */,
+			);
+			name = "Pods-ArthurFloresAppUITests";
+			path = "Target Support Files/Pods-ArthurFloresAppUITests";
+			sourceTree = "<group>";
+		};
+		501562BF592517FC6A65661FF1B35C78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E004374149D836C1256FFFCB38FECB72 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BC99F081C91F80679CFA5DDC6213D57 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E10253D9A6AF596CDA1C3BBE1F2FBFD6 /* Frameworks */,
+				3598CBA77D53C0AA5CCFD958CD2E8857 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */,
+				B326EA2E8CBD4EB59DD93DCE39B98F0A /* Products */,
+				A0FAFE18A89F702CBFDD7F015D8ADC23 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A0FAFE18A89F702CBFDD7F015D8ADC23 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FCF4FB4752927D4BCC6D920928AC45C /* Pods-ArthurFloresApp */,
+				E57F16D3A5385F894E56158D7DCC5F16 /* Pods-ArthurFloresAppTests */,
+				3BA71102040E82A83693B05A97AD2CF9 /* Pods-ArthurFloresAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B326EA2E8CBD4EB59DD93DCE39B98F0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27BC9C8007FB2C18A3E356B260D73BCE /* Pods_ArthurFloresApp.framework */,
+				EDEE9A4AB50881B6004AEB6DA432760B /* Pods_ArthurFloresAppTests.framework */,
+				BCFBE8AFD3438608B911C40E8F6C8051 /* Pods_ArthurFloresAppUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E10253D9A6AF596CDA1C3BBE1F2FBFD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F95DB7ACF73CF03040C57A3D42223A51 /* GoogleMaps.framework */,
+				36DB83CB4279B90D59054691B89501D1 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E57F16D3A5385F894E56158D7DCC5F16 /* Pods-ArthurFloresAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				323919BF0E0AE5E164DB4A1511685BBD /* Info.plist */,
+				CB6BB591C7D7A9BB72CB281BD4FACFA9 /* Pods-ArthurFloresAppTests.modulemap */,
+				02B7703695677D9E493660EEE9F7CDEE /* Pods-ArthurFloresAppTests-acknowledgements.markdown */,
+				1B6D31AE847C42C8C2D66216EC8A7619 /* Pods-ArthurFloresAppTests-acknowledgements.plist */,
+				7861EB6A8E674B239503981B46D2E833 /* Pods-ArthurFloresAppTests-dummy.m */,
+				DADE341A363EC39495E035B4B9B75B9B /* Pods-ArthurFloresAppTests-frameworks.sh */,
+				155E0231308603605343A90F3C5B93E2 /* Pods-ArthurFloresAppTests-resources.sh */,
+				67CBB2902CD10CF58B4A4766B4ADC777 /* Pods-ArthurFloresAppTests-umbrella.h */,
+				29E8EA80A544CF00810A2B0A2BA160CE /* Pods-ArthurFloresAppTests.debug.xcconfig */,
+				172A012401C6D328C7388CF4C7EEE54C /* Pods-ArthurFloresAppTests.release.xcconfig */,
+			);
+			name = "Pods-ArthurFloresAppTests";
+			path = "Target Support Files/Pods-ArthurFloresAppTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06BB4640540CD760CBBD038D9F76C88E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D926EEA20BBAA8ED8361183A6ACBA8 /* Pods-ArthurFloresAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BFB5A3F5B99236EE80662902DA332C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C388BEBBBAFE87EED0AF94F5610E643B /* Pods-ArthurFloresAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DBE2866C46FB83DB7DAB18C726AD28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DC7910A14CABD0C359A4EBA169677D /* Pods-ArthurFloresApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		310CDC1E19A402FEACD1D75AF091D8BC /* Pods-ArthurFloresAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE1CDB4B08346E6B901993937A8A55C /* Build configuration list for PBXNativeTarget "Pods-ArthurFloresAppTests" */;
+			buildPhases = (
+				8F62A3F7C9E482053901307EDCC8A569 /* Sources */,
+				A779527E4B5EDF39982232395E7B8865 /* Frameworks */,
+				09BFB5A3F5B99236EE80662902DA332C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArthurFloresAppTests";
+			productName = "Pods-ArthurFloresAppTests";
+			productReference = EDEE9A4AB50881B6004AEB6DA432760B /* Pods_ArthurFloresAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		420150F2879CA31C03A5B1DD70AE7F11 /* Pods-ArthurFloresAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CCDD95EEF819901E4E1128F79371C0 /* Build configuration list for PBXNativeTarget "Pods-ArthurFloresAppUITests" */;
+			buildPhases = (
+				FE10BAE37F73E8DB962DFC5116979B06 /* Sources */,
+				A4F6216D8EF12A5A499648765A035711 /* Frameworks */,
+				06BB4640540CD760CBBD038D9F76C88E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArthurFloresAppUITests";
+			productName = "Pods-ArthurFloresAppUITests";
+			productReference = BCFBE8AFD3438608B911C40E8F6C8051 /* Pods_ArthurFloresAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D097344435ECBC57BAF4A125E2E9ABAE /* Pods-ArthurFloresApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BF6691761619E9B8299937E5B1ABD1 /* Build configuration list for PBXNativeTarget "Pods-ArthurFloresApp" */;
+			buildPhases = (
+				3743F8AEC79C29518045D803046880AD /* Sources */,
+				C6352CDA4D9864800A06DA4A9ECE561D /* Frameworks */,
+				99DBE2866C46FB83DB7DAB18C726AD28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArthurFloresApp";
+			productName = "Pods-ArthurFloresApp";
+			productReference = 27BC9C8007FB2C18A3E356B260D73BCE /* Pods_ArthurFloresApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B326EA2E8CBD4EB59DD93DCE39B98F0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D097344435ECBC57BAF4A125E2E9ABAE /* Pods-ArthurFloresApp */,
+				310CDC1E19A402FEACD1D75AF091D8BC /* Pods-ArthurFloresAppTests */,
+				420150F2879CA31C03A5B1DD70AE7F11 /* Pods-ArthurFloresAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3743F8AEC79C29518045D803046880AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C476140C38E4D565E88329C56A0E801B /* Pods-ArthurFloresApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F62A3F7C9E482053901307EDCC8A569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED01A83A52F0F5B079606A54FB45B284 /* Pods-ArthurFloresAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE10BAE37F73E8DB962DFC5116979B06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A194022421A39D62EF8A16036961CA /* Pods-ArthurFloresAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		224EF094AF859F5C38FBD867D2B17464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C08BD4DCDB27B80D13D4AAF61DCEEF /* Pods-ArthurFloresAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArthurFloresAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArthurFloresAppUITests/Pods-ArthurFloresAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArthurFloresAppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36D92806A1BA4FA49A3AE797F6758D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF978C29ED3AFA285091F6C6ADAA1366 /* Pods-ArthurFloresApp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArthurFloresApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArthurFloresApp/Pods-ArthurFloresApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArthurFloresApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57F8A032DC07AB679B3011C4E354C626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197AF0C16A73AC37D644DD9895010930 /* Pods-ArthurFloresAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArthurFloresAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArthurFloresAppUITests/Pods-ArthurFloresAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArthurFloresAppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		62FF05BBA5251CBF817707AD2F5957FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7EA5D23D64AC3F7ED8B8F0D96252E7 /* Pods-ArthurFloresApp.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArthurFloresApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArthurFloresApp/Pods-ArthurFloresApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArthurFloresApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AF6D25E0517B8520FE6D83B1F8D6537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E8EA80A544CF00810A2B0A2BA160CE /* Pods-ArthurFloresAppTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArthurFloresAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArthurFloresAppTests/Pods-ArthurFloresAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArthurFloresAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D80C3A07174F570EBCC027694BB3CC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 172A012401C6D328C7388CF4C7EEE54C /* Pods-ArthurFloresAppTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArthurFloresAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArthurFloresAppTests/Pods-ArthurFloresAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArthurFloresAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BF6691761619E9B8299937E5B1ABD1 /* Build configuration list for PBXNativeTarget "Pods-ArthurFloresApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D92806A1BA4FA49A3AE797F6758D1A /* Debug */,
+				62FF05BBA5251CBF817707AD2F5957FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE1CDB4B08346E6B901993937A8A55C /* Build configuration list for PBXNativeTarget "Pods-ArthurFloresAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF6D25E0517B8520FE6D83B1F8D6537 /* Debug */,
+				D80C3A07174F570EBCC027694BB3CC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4CCDD95EEF819901E4E1128F79371C0 /* Build configuration list for PBXNativeTarget "Pods-ArthurFloresAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224EF094AF859F5C38FBD867D2B17464 /* Debug */,
+				57F8A032DC07AB679B3011C4E354C626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
